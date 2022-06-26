@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SharedLibrary.Dtos
 {
-  public  class ErrorDto
+    public  class ErrorDto
     {
         public bool IsShow { get; set; }
         public List<String> Errors { get; private set; }
